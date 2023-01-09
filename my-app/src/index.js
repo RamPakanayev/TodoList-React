@@ -19,12 +19,20 @@ import React from "react";
 import ReactDOM from "react-dom";
 const fName = "Ram";
 const lName = "Pakanayev";
-const number = 7;
+const date = new Date(); //(2022,5,3) 
+const year = date.getFullYear();
 
+// ReactDOM.render(
+//   <div>
+//     <p>Created by {`${fName} ${lName}`} </p>
+//     <p>Your lucky number is {3 + number}</p>
+//   </div>,
+//   document.getElementById("root")
+// );
 ReactDOM.render(
   <div>
-    <h1>Hello {`${fName} ${lName}`} </h1>
-    <h2>Your lucky number is {3 + number}</h2>
+    <p>Created by {`${fName} ${lName}`} </p>
+    <p>copy right {year}</p>
   </div>,
   document.getElementById("root")
 );
