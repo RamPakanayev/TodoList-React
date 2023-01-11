@@ -1,5 +1,8 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import Heading from "./heading";
+import ListItems from "./ListItems";
+
+
 
 let h1Str;
 const date = new Date();
@@ -20,7 +23,8 @@ if (currentTime >= 4) {
   heading.color = "blue";
 }
 
-ReactDOM.render(
-  <h1 style={heading}>{h1Str}</h1>,
-  document.getElementById("root")
-);
+function App() {
+  return
+  <h1 style={heading}>{h1Str}</h1>
+}
+export default App;
