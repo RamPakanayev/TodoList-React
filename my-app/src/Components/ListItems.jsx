@@ -1,6 +1,6 @@
 import React from "react";
 
-function Heading() {
+function ListItems() {
   return (
     <ul>
       <li>are you good?</li>
@@ -10,4 +10,4 @@ function Heading() {
   );
 }
 
-export default Heading;
+export default ListItems;
