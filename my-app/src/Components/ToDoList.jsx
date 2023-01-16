@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Heading from "./Heading";
 import InputArea from "./InputArea";
+import ToDoItem from "./ToDoItem";
 
 function ToDoList() {
   const [todo, setTodo] = useState([]);
