@@ -29,6 +29,7 @@ body {
 }
 
 .form input {
+  word-wrap: break-word;
   box-sizing: border-box;
   background-color: #f4f4f4;
   padding: 0.7rem;
