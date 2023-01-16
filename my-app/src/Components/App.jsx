@@ -1,15 +1,12 @@
 import React from "react";
-import Heading from "./heading";
-import CalcList from "./calcList";
-import ListItems from "./ListItems";
-
+import ToDoList from "./ToDoList";
 function App() {
+  
   return (
-    <div>
-      <Heading />
-      <CalcList />
-      <ListItems />
+    <div className="containerA">
+      <ToDoList />
     </div>
   );
 }
+
 export default App;

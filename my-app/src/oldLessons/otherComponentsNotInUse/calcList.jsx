@@ -1,5 +1,5 @@
 import React from "react";
-import * as calc from "../calculator";
+import * as calc from "./calculator";
 
 function calcList() {
   let a = 4;
