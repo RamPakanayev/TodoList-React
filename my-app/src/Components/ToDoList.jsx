@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Heading from "./Heading";
 import InputArea from "./InputArea";
-import ToDoItem from "./ToDoItem";
 
 function ToDoList() {
   const [todo, setTodo] = useState([]);
@@ -30,11 +29,9 @@ function ToDoList() {
     <div className="container">
       <Heading />
       <InputArea
-        onChange={handleChange}
-        placeholder={inputStr.placeholder}
-        value={inputStr.val}
-        type="text"
-        onClick={handleClick}
+        handleChange={handleChange}
+        handleClick={handleClick}
+        inputStr={inputStr}
       />
 
       <div>

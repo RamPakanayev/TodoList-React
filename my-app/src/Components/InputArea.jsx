@@ -1,17 +1,17 @@
 import React from "react";
 
-function InputArea(props) {
+function InputArea({ handleChange, handleClick, inputStr }) {
   return (
     <div className="form">
       <input
         name="to-do"
-        onChange={props.onChange}
-        placeholder={props.placeholder}
-        value={props.value}
-        type={props.type}
+        onChange={handleChange}
+        placeholder={inputStr.placeholder}
+        value={inputStr.val}
+        type="text"
       />
 
-      <button onClick={props.handleClick}>
+      <button onClick={handleClick}>
         <span>Add</span>
       </button>
     </div>
