@@ -28,19 +28,14 @@ function ToDoList() {
   return (
     <div className="container">
       <Heading />
-      <div className="form">
-        <input
-          name="to-do"
-          onChange={handleChange}
-          placeholder={inputStr.placeholder}
-          value={inputStr.val}
-          type="text"
-        />
+      <InputArea
+        onChange={handleChange}
+        placeholder={inputStr.placeholder}
+        value={inputStr.val}
+        type="text"
+        onClick={handleClick}
+      />
 
-        <button onClick={handleClick}>
-          <span>Add</span>
-        </button>
-      </div>
       <div>
         {todo.map((content, index) => (
           <ul key={index}>
