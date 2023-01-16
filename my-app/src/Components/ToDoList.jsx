@@ -2,8 +2,7 @@ import React, { useState } from "react";
 
 import Heading from "./Heading";
 import InputArea from "./InputArea";
-import ToDoItem from "./ToDoItem";
-
+import TodoItem from "./TodoItem";
 
 function ToDoList() {
   const [todo, setTodo] = useState([]);
@@ -36,12 +35,11 @@ function ToDoList() {
         handleChange={handleChange}
         handleClick={handleClick}
         inputStr={inputStr}
-
       />
 
       <div>
         {todo.map((content, index) => (
-          <ToDoItem
+          <TodoItem
             key={index}
             content={content}
             index={index}

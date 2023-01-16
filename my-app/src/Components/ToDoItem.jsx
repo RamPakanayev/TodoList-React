@@ -1,6 +1,6 @@
 import React from "react";
 
-function ToDoItem({ content, index, handleDelete }) {
+function TodoItem({ content, index, handleDelete }) {
   return (
     <ul key={index}>
       <li> {content} </li>
@@ -11,4 +11,4 @@ function ToDoItem({ content, index, handleDelete }) {
   );
 }
 
-export default ToDoItem;
+export default TodoItem;
