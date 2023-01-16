@@ -1,5 +1,5 @@
 body {
-  background-color: #f4f4f4;
+  background-color: #77a0cd;
   min-height: 70vh;
   padding: 1rem;
   box-sizing: border-box;
@@ -29,7 +29,7 @@ body {
 }
 
 .form input {
-  word-wrap: break-word;
+    word-wrap: break-word;
   box-sizing: border-box;
   background-color: #f4f4f4;
   padding: 0.7rem;
