@@ -1,7 +1,9 @@
 import React, { useState } from "react";
+
 import Heading from "./Heading";
 import InputArea from "./InputArea";
 import ToDoItem from "./ToDoItem";
+
 
 function ToDoList() {
   const [todo, setTodo] = useState([]);
@@ -29,10 +31,12 @@ function ToDoList() {
   return (
     <div className="container">
       <Heading />
+
       <InputArea
         handleChange={handleChange}
         handleClick={handleClick}
         inputStr={inputStr}
+
       />
 
       <div>
