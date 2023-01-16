@@ -6,6 +6,7 @@
   <li>Add to-do items by entering them into an input field and clicking "Add"</li>
   <li>View a list of all added to-do items</li>
   <li>Delete individual to-do items by clicking the "Delete" button next to them</li>
+  <li>Mark individual to-do items as done by linening the text and change the done button to undone</li>
 </ul>
 <h2>File Structure</h2>
 <ul>
