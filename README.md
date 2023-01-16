@@ -34,4 +34,4 @@
 </ul>
 <p>The component is exported as default so that it can be used in other files.</p>
 
-<img height="500px" src="my-app\public\TodoList example.png"></img>
+<img height="500px" src="my-app\public\ToDoListExample.png"></img>
