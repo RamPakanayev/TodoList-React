@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Heading from "./Heading";
 
 function ToDoList() {
   const [todo, setTodo] = useState([]);
@@ -25,9 +26,7 @@ function ToDoList() {
 
   return (
     <div className="container">
-      <div className="heading">
-        <h1>To-Do List</h1>
-      </div>
+      <Heading />
       <div className="form">
         <input
           name="to-do"
