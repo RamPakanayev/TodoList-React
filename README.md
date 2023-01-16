@@ -33,5 +33,7 @@
   <li>A list of to-do items rendered using the map function, each with its own delete button that calls the handleDelete function when clicked</li>
 </ul>
 <p>The component is exported as default so that it can be used in other files.</p>
-
-<img height="500px" src="my-app\public\ToDoListExample.png"></img>
+<hr/>
+<h3>image for demonstration:</h3>
+<br/>
+<img height="350px" src="my-app\public\ToDoListExample.png"></img>
