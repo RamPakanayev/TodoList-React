@@ -1,4 +1,5 @@
 <h1>To-Do List</h1>
+<hr/>
 <p>A simple to-do list application built with React.</p>
 <h2>Features</h2>
 <ul>
@@ -33,4 +34,4 @@
 </ul>
 <p>The component is exported as default so that it can be used in other files.</p>
 
-<img src="my-app\public\TodoList example.png"></img>
+<img height="500px" src="my-app\public\TodoList example.png"></img>
