@@ -10,8 +10,12 @@ function InputArea({ handleChange, handleClick, inputStr }) {
         value={inputStr.val}
         type="text"
       />
-
-      <button onClick={handleClick}>
+      <button
+        onClick={handleClick}
+        style={{
+          marginBottom: "5%",
+        }}
+      >
         <span>Add</span>
       </button>
     </div>

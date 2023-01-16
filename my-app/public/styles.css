@@ -14,7 +14,7 @@ body {
 .container {
   width: 90%;
   max-width: 600px;
-  min-width: 300px;
+  min-width: 400px;
   background: #fff;
   border-radius: 10px;
   box-shadow: 4px 4px 10px #ccc;
@@ -36,8 +36,8 @@ body {
   border-radius: 5px;
   font-size: 1rem;
   color: #333;
-  width: 100%;
-  margin-bottom: 20px;
+  width: 80%;
+  margin-right: 10px;
 }
 
 .form input:focus {
@@ -46,7 +46,6 @@ body {
 }
 
 button {
-  padding: 0;
   border: none;
   background: #00bcd4;
   color: #fff;
@@ -76,6 +75,24 @@ li {
 
 .delete:hover {
   background: #b63232;
+}
+.done {
+  padding: 0;
+  border: none;
+  background: #17e50c;
+  color: #fff;
+  font-size: 10px;
+  padding: 0.3rem 1rem;
+  float: right;
+  margin-right: 4px;
+}
+
+.done:hover {
+  background: #118e08;
+}
+
+.done-text {
+  text-decoration: line-through;
 }
 
 button:hover {
